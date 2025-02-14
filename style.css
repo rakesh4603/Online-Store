@@ -1,0 +1,228 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+.NavBar {
+    display: flex;
+    justify-content: space-between; /* Align items to left and right */
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+}
+
+/* Navbar Title (Left Side) */
+#navbar-title {
+    color: white;
+    font-size: 25px;
+}
+
+/* Navbar Links (Right Side) */
+.nav-links {
+    display: flex;
+    gap: 20px; /* Space between items */
+}
+
+.nav-links a {
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #C5B8FF;
+}
+/* Links */
+a {
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5747A8;
+}
+
+/* Header */
+header {
+    height: 60px;
+    background-color: #806BDC;
+    text-align: center;
+}
+
+.NavBar {
+    padding-top: 18px;
+}
+
+#navbar-title {
+    color: white;
+    font-size: 25px;
+}
+
+/* Product Items Section */
+.Items {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table {
+    width: 100%;
+    text-align: center;
+}
+
+.Item-img {
+    height: 80px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Item-img:hover {
+    transform: scale(1.1);
+}
+
+.Item-tag {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.Item-tag:hover {
+    color: #806BDC;
+}
+
+/* Shopping Section */
+.Shopping-container {
+    background-color: lightgrey;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#shopping-time-img {
+    margin-top: 30px;
+    width: 90vw;
+    height: 60vh;
+    border-radius: 10px;
+}
+
+/* Sales Table */
+.Sales-table {
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.Sales-table th, .Sales-table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.Sales-table-head {
+    background-color: #806BDC;
+    color: white;
+}
+
+/* Information Section */
+.Information {
+    width: 92vw;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #555;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    height: 50px;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Login & Signup Form */
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Login and Signup Button */
+button {
+    background: #806BDC;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background: #5747A8;
+}
+
+/* Cart Page Styles */
+.cart-container {
+    width: 90vw;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart-table th {
+    background: #806BDC;
+    color: white;
+}
+
+#cart-total {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+}
